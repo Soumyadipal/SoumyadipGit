@@ -1,0 +1,478 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+  }
+  
+  body, head{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.925);
+  }
+.navbar{
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px #ffffff1a solid;
+    gap: 20px;
+  }
+  
+  .logo{
+    height: 46px;
+    padding: 8px 0px;
+  }
+  
+  .navbar li{
+    list-style: none;
+    font-size: 17px;
+    padding: 27px 0px; 
+  }
+  
+  .searchBox{
+    height: 39px;
+    width: 428.88px;
+    border-radius: 10px;
+    margin: 12px 0px;
+    background-color: #090909de;
+    border: 1px #ffffff14 solid;
+    box-shadow: 0px 0px 2px #aeaeae14;
+  }
+  
+  .search_icon{
+    height: 16px;
+    display: inline;
+    position: relative;
+    padding: 13px 2px;
+  }
+  
+  .search_input{
+    height: 28px;
+    width: 389px;
+    display: inline;
+    position: absolute;
+    padding: 8px 13px;
+    border: none;
+    margin: 5px 0px 4px 2px;
+    border-radius: 6px;
+    background-color: #090909de;
+    font-size: 17px;
+  
+  }
+  
+  .nwa{
+    height: 27px;
+    padding: 18px 0px;
+  }
+
+  .login{
+    height: 42px;
+    padding: 11px 0px;
+  }
+.column1{
+    margin-left: 90px;
+}
+.column2{
+    margin-right: 90px;
+}
+.pw14Container {
+    position: relative;
+    align-items: flex-start;
+    margin: 60px 0;
+}
+.row.col.l12 {
+    margin-left: auto;
+    margin-right: auto;
+}
+.pw14mainwrapper {
+    display: flex;
+    height: auto;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.pw14contentwrapper {
+    max-width: 710px;
+    flex: 2 1;
+}
+.pw14actionwrapper {
+    flex: 1 1;
+}
+.stockOnboarding_stickyDiv__Lr6gD {
+    width: 340px;
+    float: right;
+    text-align: center;
+}
+.msc999MainDiv {
+    position: relative;
+    max-width: 350px;
+    min-width: 150px;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.6);
+    /* background-color: #200120; */
+    background-color: #121212;
+    float: right;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #2a2a2a;
+}
+.msc999Heading {
+    font-size: 19px;
+    letter-spacing: -.23px;
+    color: #dcdcdd;
+    -webkit-font-smoothing: auto;
+    margin: 15px 0 20px;
+}
+.msc999Para {
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: -.16px;
+    color: #b0b2ba;
+    margin-bottom: 20px;
+}
+.btn51Primary {
+    background: #0abb92;
+    color: #ebebf5;
+}
+.btn51RipplePrimary {
+    background-position: 50%;
+}
+.btn51ParentDimension {
+    height: inherit;
+}
+
+.btn51Btn {
+    display: inline-block;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    white-space: nowrap;
+    position: relative;
+}
+.btn51Btn :hover{
+    background-color: #36be9f;
+    color: #fafafa;
+    border-radius: 4px;
+    
+}
+.center-align {
+    text-align: center;
+}
+.wrapper1{
+    color: wheat;
+    font-size: 15px;
+    font-weight: 400;
+}
+.wrapper1{
+    padding: 20px 0;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    max-height: 58px;
+}
+.valign-wrapper{
+    display: flex;
+    align-items: center;
+}
+.text1{
+    color: antiquewhite;
+    cursor: pointer;
+}
+.text1:hover{
+    text-decoration: underline;
+}
+.text2{
+    color: antiquewhite;
+}
+h1,h2,h3,h4,h5,h6,p,span{
+    user-select: text;
+}
+a{
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+.arrow1{
+    padding: 0 10px;
+}
+.wrapper2{
+    border: 1px solid white;
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 8px;
+    margin-bottom: 32px;
+}
+.vspace-between{
+    justify-content: space-between;
+}
+.lpu38DelayedUiIcon{
+    margin-right: 10px;
+}
+.clrSubText{
+    color: wheat;
+}
+.text3{
+    font-weight: 800;
+    cursor: pointer;
+    color: #0abb92;
+}
+.companyLogo_companyImage__bT0On {
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+.absolute-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.companylogo1{
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid black;
+    background: white;
+}
+.logostyle1{
+    width: 54px;
+    height: 54px
+}
+.margin{
+    margin-right: 10px;
+}
+.flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vspace-between{
+    justify-content: space-between;
+}
+.clrSubText {
+    color: grey;
+}
+.cur-po{
+    cursor: pointer;
+}
+.absolute-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lpu38AlertsNotificationIcon {
+    margin-right: 24px;
+    border-radius: 50%;
+    background: #414040;
+    width: 47px;
+    height: 45px;
+}
+.lpu38WatchlistIconWrapper{
+    border-radius: 50%;
+    background: #414040;
+    width: 47px;
+    height: 45px;
+}
+.lpu38ScriptCode {
+    opacity: .7;
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #b0b2ba;
+    margin-bottom: 3px;
+}
+.lpu38Head {
+    font-weight: 400;
+    color: var(--text);
+    max-width: 390px;
+    margin: 0;
+}
+.truncate {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.fs24 {
+    font-size: 1.5rem;
+    letter-spacing: .01em;
+    line-height: 160%;
+}
+.lpu38OptionChainLink {
+    border: 1px solid #0abb92;
+    border-radius: 15px;
+    padding: 3px 8px;
+    max-width: 150px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 4px;
+    background-color: #0e231e;
+}
+.primaryClr {
+    color: #0abb92;
+}
+.fs12 {
+    letter-spacing: .01em;
+    line-height: 160%;
+    font-size: .75rem;
+}
+.lpu38Pri {
+    font-weight: 500;
+    color: #dcdcdd;
+    height: 33px;
+    line-height: normal;
+}
+.fs28 {
+    letter-spacing: .01em;
+    line-height: 160%;
+    font-size: 1.75rem;
+}
+.lpu38San {
+    height: 36px;
+}
+.lpu38Day {
+    font-weight: 500;
+    margin-left: 10px;
+}
+.growwRed {
+    color: #d55438;
+}
+.fs14 {
+    font-size: .875rem;
+    letter-spacing: .01em;
+    line-height: 160%;
+}
+.pos-rel{
+    position: relative;
+}
+.graph{
+    position: relative;
+    height: 283px;
+}
+.col.row {
+    float: left;
+    box-sizing: border-box;
+    min-height: 1px;
+}
+.row .col.l12 {
+    width: 100%;
+}
+.contentPrimary {
+    color: #fff;
+}
+.heading20 {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+}
+.exr710InfoIcon {
+    color: #b8b8b8;
+    margin-left: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.exr42mainDiv {
+    margin-top: 24px;
+}
+.exr42buyDiv {
+    border-radius: 50%;
+    width: 150px;
+    height: 120px;
+    position: relative;
+    margin-right: 40px;
+}
+.bodyRegular16 {
+    font-size: 1rem;
+    line-height: 1.375rem;
+}
+.bodyRegular16 {
+    font-size: 1rem;
+    line-height: 1.375rem;
+    font-weight: 435;
+}
+.width100 {
+    width: 100%;
+}
+.contentSecondary {
+    color: #b8b8b8;
+}
+.left-align {
+    text-align: left;
+}
+.exr710LinearBar {
+    height: 8px;
+    border-radius: 2px;
+}
+.stkP12Section {
+    margin-top: 80px;
+}
+.acs67Para {
+    margin-top: 15px;
+    color: #f8f8f8;
+    text-align: justify;
+    line-height: 27px;
+}
+.rm14MainContainer {
+    width: 100%;
+}
+.rm14DummyDiv {
+    width: 100%;
+    visibility: hidden;
+}
+.pos-abs {
+    position: absolute;
+}
+.rm14ReadDiv.rm14ReadMore {
+    bottom: 0;
+    right: 0;
+    min-width: 80px;
+}
+.rm14ReadDiv {
+    background: #121212;
+}
+.bodyMedium16 {
+    font-weight: 535;
+    font-size: 1rem;
+    line-height: 1.375rem;
+}
+.contentAccent {
+    color: #0abb92;
+}
+.acs67Head, .acs67Value {
+    height: 60px;
+    border-bottom: none;
+}
+.acs67Head {
+    font-weight: 400;
+    color: #b8b8b8;
+}
+.acs67Value {
+    font-weight: 500;
+    padding-left: 15px;
+    color: #f8f8f8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.acs67Divider {
+    border-right: 1px solid #2e2e2e;
+    height: 120px;
+}
+.acs67BrandList {
+    margin-top: 12px;
+    overflow-x: auto;
+    position: relative;
+    display: flex;
+    max-width: 715px;
+    transition: transform .4s ease-in-out;
+}
+.acs67BrandListItem {
+    border-radius: 5px;
+    border: 1px solid #2e2e2e;
+    background-color: #1d1d1d;
+    margin: 7px 15px 7px 0;
+    width: 88px;
+    height: 88px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    padding: 15px;
+}
+.container7{
+    height: 100px;
+    background-color: #121212;
+}
